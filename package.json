@@ -1,7 +1,7 @@
 {
-  "name": "node-experiments",
+  "name": "metadata-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "This RESTful api takes a URL and return its metadata. If the page has OG parameters set exclusively, then all the OG parameters are returned. However, If they are not set, other relevant details such as title, description are returned.",
   "main": "index.js",
   "scripts": {
     "start": "node index",
